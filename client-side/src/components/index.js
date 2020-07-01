@@ -5,6 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import App from './chat/App';
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
@@ -77,9 +78,7 @@ function About() {
 
 function Dashboard() {
   return (
-    <div>
-      <h2>Dashboard</h2>
-    </div>
+     <App/>
   );
 }
 
